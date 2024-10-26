@@ -2,13 +2,17 @@
 
 The **Symmetric Traveling Salesman Problem (Symmetric TSP)** is a classic combinatorial optimization problem and a specific version of the Traveling Salesman Problem (TSP). In Symmetric TSP, a salesperson (or agent) must find the shortest possible tour that visits each city exactly once, then returns to the starting city, with distances between cities being symmetric. This means that the distance from city $( A )$ to city $( B )$ is the same as the distance from $( B )$ to $( A )$, making the underlying graph undirected.
 
+---
+
 ### Key Characteristics of Symmetric TSP
 1. **Symmetry**: The distance or cost between any pair of cities is the same in both directions. If $(d_{ij})$ is the distance from city $(i)$ to city $(j)$, then $(d_{ij} = d_{ji})$ for all city pairs $(i)$ and $(j)$.
 2. **Undirected Graph Representation**: Since the distances are symmetric, the problem can be represented on an undirected, weighted graph where nodes represent cities, and edges represent the distances or costs between them.
 3. **NP-hardness**: Symmetric TSP is NP-hard, meaning that as the number of cities grows, the problem becomes computationally intractable for exact algorithms. This motivates the development of heuristic and metaheuristic approaches.
 
 ### Problem Formulation of Symmetric TSP
-In Symmetric TSP, we aim to find a **Hamiltonian cycle** (a cycle that visits each node exactly once) with the minimum total weight (distance or cost). Mathematically, the problem is typically formulated as an **Integer Linear Program (ILP)**.
+In Symmetric TSP, we aim to find a **Hamiltonian cycle** (a cycle that visits each node exactly once) with the minimum total weight (distance or cost). Mathematically, the problem is typically formulated as an Integer Linear Program (ILP).
+
+---
 
 ### Differences Between Symmetric and Asymmetric TSP
 1. **Symmetry of Distances**:
@@ -21,6 +25,8 @@ In Symmetric TSP, we aim to find a **Hamiltonian cycle** (a cycle that visits ea
 3. **Applications**:
    - Symmetric TSP is often used in geographic routing, where travel between two points is usually independent of direction (e.g., Euclidean distances).
    - Asymmetric TSP is common in cases with one-way streets or directional costs, such as in airline routes or delivery scenarios where costs differ based on direction.
+
+---
 
 ### Exact Methods for Solving Symmetric TSP
 Due to the symmetric nature of distances, Symmetric TSP is often more amenable to optimization techniques compared to Asymmetric TSP. Here are some exact methods commonly used:
@@ -55,6 +61,8 @@ While exact methods work well for small to medium-sized instances, heuristic and
 4. **Simulated Annealing, Genetic Algorithms, and Ant Colony Optimization**:
    - Metaheuristics that explore a larger search space, effective for finding high-quality solutions for large TSP instances.
 
+---
+
 ### Example of Symmetric TSP
 Consider a simple instance of Symmetric TSP with four cities and the following distance matrix (where $(d_{ij} = d_{ji})$):
 
@@ -69,6 +77,8 @@ Consider a simple instance of Symmetric TSP with four cities and the following d
 2. **Solution (Example)**:
    - One possible tour is **1 → 2 → 4 → 3 → 1** with a total distance of $(10 + 25 + 30 + 15 = 80)$.
    - For Symmetric TSP, this tour will have the same distance in either direction, e.g., **1 → 3 → 4 → 2 → 1** would also yield $80$.
+
+---
 
 ### Applications of Symmetric TSP
 Symmetric TSP appears in numerous real-world applications where distances or travel costs are not directional, including:
@@ -85,6 +95,8 @@ Symmetric TSP appears in numerous real-world applications where distances or tra
 4. **Tourism and Travel**:
    - Planning round trips or tours where the travel cost is the same in either direction, such as planning road trips.
 
+---
+
 ### Limitations of Symmetric TSP
 While Symmetric TSP is easier to solve than the Asymmetric TSP, it still presents computational challenges as the problem size grows:
 
@@ -93,6 +105,8 @@ While Symmetric TSP is easier to solve than the Asymmetric TSP, it still present
 
 2. **Inflexibility in Modeling Asymmetric Scenarios**:
    - In many real-world problems, travel costs may be asymmetric due to one-way roads, fuel costs, or time-based traffic variations. Symmetric TSP does not accommodate these scenarios directly.
+
+---
 
 ### Conclusion
 Symmetric TSP is a fundamental problem in combinatorial optimization with wide-ranging applications. It is characterized by symmetric travel costs, making it suitable for undirected graph models. While exact methods like Branch and Bound, Dynamic Programming, and Branch and Cut provide optimal solutions for smaller instances, heuristic and metaheuristic approaches are often needed for larger instances. Symmetric TSP remains an essential benchmark in optimization research, providing insights and methods applicable to other combinatorial and routing problems
