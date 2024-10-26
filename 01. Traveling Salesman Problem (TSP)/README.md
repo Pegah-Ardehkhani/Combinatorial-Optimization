@@ -77,7 +77,7 @@ This model can be solved using integer programming techniques, where the binary 
   
 - **NP-hard**: TSP is a well-known NP-hard problem in combinatorial optimization, meaning there is no known polynomial-time algorithm that guarantees an optimal solution for large instances.
 
-2. ****Types of TSP:**
+2. **Types of TSP:**
    
  - Symmetric TSP: In the symmetric TSP, the distance between any two cities is the same in both directions, so $( d_{ij} = d_{ji})$
 
