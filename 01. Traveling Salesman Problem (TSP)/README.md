@@ -69,6 +69,22 @@ $\text{Minimize } \sum_{i=1}^n \sum_{j=1}^n d_{ij} x_{ij}$
 
 This model can be solved using integer programming techniques, where the binary decision variables are optimized to find the minimum-cost route.
 
+#### Special Features of the TSP Model:
+
+1. **Problem Complexity:**
+   
+- **Exponential Growth:** The number of feasible solutions for an n-city TSP is $\frac{1}{2}(n-1)!$ as you've noted, which grows exponentially with $n$. This makes TSP very challenging as $n$ increases.
+  
+- **NP-hard**: TSP is a well-known NP-hard problem in combinatorial optimization, meaning there is no known polynomial-time algorithm that guarantees an optimal solution for large instances.
+
+2. ****Types of TSP:**
+   
+ - Symmetric TSP: In the symmetric TSP, the distance between any two cities is the same in both directions, so $( d_{ij} = d_{ji})$
+
+ - Asymmetric TSP: In the asymmetric TSP, distances may differ depending on direction, so $( d_{ij} \neq d_{ji})$
+
+ - Euclidean TSP: A specific TSP where cities are points in the Euclidean plane, and distances are the Euclidean distances between points. This TSP type often appears in geographic applications.
+
 ### 3. Alternative Ways to Solve TSP
 
 Aside from solving TSP with an optimization model, there are other methods and algorithms to tackle the problem. Here are some alternative approaches:
