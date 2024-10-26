@@ -92,9 +92,9 @@ Below are some of the primary exact methods for solving TSP, along with an overv
 
 | Algorithm           | Type               | Complexity        | Best for Instance Sizes | Key Advantage                          | Key Limitation                      |
 |---------------------|--------------------|-------------------|-------------------------|---------------------------------------|-------------------------------------|
-| Brute Force         | Exhaustive Search  | \(O((n-1)!)\)    | Very small (<10 cities) | Simple and guarantees optimal solution| Impractical for large \(n\)         |
-| Dynamic Programming | Recursive & Memory | \(O(n^2 \cdot 2^n)\) | Small to medium (<30)  | Avoids redundant calculations         | Still exponential                   |
-| Branch and Bound    | Recursive          | Variable (up to \(n!\)) | Small to medium (<50)  | Prunes large portions of search space| Computationally expensive           |
+| Brute Force         | Exhaustive Search  | $(O((n-1)!))$    | Very small (<10 cities) | Simple and guarantees optimal solution| Impractical for large $(n)$         |
+| Dynamic Programming | Recursive & Memory | $(O(n^2.2^n))$ | Small to medium (<30)  | Avoids redundant calculations         | Still exponential                   |
+| Branch and Bound    | Recursive          | Variable (up to $(n!)$ ) | Small to medium (<50)  | Prunes large portions of search space| Computationally expensive           |
 | Branch and Cut      | Mixed Recursive/LP | Variable         | Medium to large         | State-of-the-art for many TSP solvers| Complex to implement                |
 | ILP Formulation     | LP-based           | Variable         | Medium to large         | Leverages powerful ILP solvers       | Memory/computation intensive        |
 | Branch and Price    | Column Generation  | Variable         | Large, constrained TSP  | Efficient for TSP with constraints   | Implementation complexity           |
