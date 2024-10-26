@@ -1,5 +1,7 @@
 # Combinatorial Optimization
 
+**Combinatorial Optimization** is a branch of optimization focused on finding an optimal solution from a finite set of discrete solutions. It is widely applied in fields like operations research, computer science, engineering, logistics, and artificial intelligence. The primary goal of combinatorial optimization is to determine the best combination or ordering of elements that satisfies specific criteria and constraints, often while minimizing or maximizing a particular objective function, like cost, time, or efficiency.
+
 <p align="center"> 
   <img width="500" height="350" src="https://miro.medium.com/v2/resize:fit:1400/1*WHoUd8ormJ3T6QIh3rJLUA.gif"> 
 </p>
@@ -8,7 +10,7 @@
 
 - [01. Traveling Salesman Problem (TSP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP))
 
-**Combinatorial Optimization** is a branch of optimization focused on finding an optimal solution from a finite set of discrete solutions. It is widely applied in fields like operations research, computer science, engineering, logistics, and artificial intelligence. The primary goal of combinatorial optimization is to determine the best combination or ordering of elements that satisfies specific criteria and constraints, often while minimizing or maximizing a particular objective function, like cost, time, or efficiency.
+---
 
 ### Key Features of Combinatorial Optimization
 
@@ -17,6 +19,8 @@
 2. **Complexity and NP-hardness**: Many combinatorial optimization problems belong to the class of NP-hard problems, meaning they are computationally intensive, and no polynomial-time algorithms are known to exist for finding optimal solutions to large instances of these problems.
 
 3. **Objective Function and Constraints**: Each problem has an objective function (e.g., minimize cost, maximize profit) and may have constraints (e.g., capacity limits in Knapsack, connectivity in TSP) that must be met by feasible solutions.
+
+---
 
 ### Common Combinatorial Optimization Problems
 
@@ -31,6 +35,8 @@
 5. **Job Scheduling**: Schedule tasks on resources (machines or workers) to minimize total completion time or other objectives.
 
 6. **Assignment Problem**: Assign tasks to agents in a way that minimizes the total cost or maximizes overall efficiency.
+
+---
 
 ### Solution Approaches in Combinatorial Optimization
 
@@ -49,6 +55,8 @@
    - **Ant Colony Optimization**: Inspired by the behavior of ants finding paths, using pheromone trails to probabilistically choose paths.
    - **Tabu Search**: Uses memory structures to avoid cycling back to recently visited solutions.
 
+---
+
 ### Applications of Combinatorial Optimization
 
 Combinatorial optimization is applied in diverse real-world scenarios, such as:
@@ -59,11 +67,15 @@ Combinatorial optimization is applied in diverse real-world scenarios, such as:
 - **Finance**: Portfolio optimization, risk management, and asset allocation.
 - **AI and Machine Learning**: Hyperparameter tuning, feature selection, and neural architecture search.
 
+---
+
 ### Challenges and Considerations
 
 1. **Scalability**: Exact algorithms can become impractical for large problem instances due to their exponential time complexity.
 2. **Quality of Solution**: Heuristic and metaheuristic methods may not guarantee optimal solutions, so trade-offs between solution quality and computational effort are often necessary.
 3. **Constraint Handling**: Complex real-world applications often involve intricate constraints, making modeling and solution finding even more challenging.
+
+---
 
 ### Summary
 
