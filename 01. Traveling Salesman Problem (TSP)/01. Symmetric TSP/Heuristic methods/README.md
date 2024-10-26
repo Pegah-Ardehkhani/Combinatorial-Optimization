@@ -2,6 +2,8 @@
 
 Heuristic methods for solving the **Traveling Salesman Problem (TSP)** are designed to find good (often near-optimal) solutions in a reasonable amount of time, especially for larger problem instances where exact algorithms become impractical. Unlike exact methods, heuristics do not guarantee an optimal solution but often achieve high-quality solutions efficiently. These methods can be broadly categorized into **constructive heuristics** and **improvement heuristics (local search)**, as well as **metaheuristics**.
 
+---
+
 ### 1. Constructive Heuristics
 Constructive heuristics build a feasible solution from scratch by adding one city at a time, following a specific rule or heuristic. Common examples include:
 
@@ -19,6 +21,8 @@ Constructive heuristics build a feasible solution from scratch by adding one cit
   - Guarantees a solution within a factor of 1.5 of the optimal solution.
   - **Reference**: Christofides, N. (1976). Worst-case analysis of a new heuristic for the travelling salesman problem. *Technical Report 388*, Carnegie-Mellon University.
 
+---
+
 ### 2. Improvement Heuristics (Local Search)
 Improvement heuristics start with an initial feasible solution and iteratively improve it by making small modifications. Common techniques include:
 
@@ -31,6 +35,8 @@ Improvement heuristics start with an initial feasible solution and iteratively i
   - An extension of the k-opt algorithm that dynamically determines the value of \( k \) based on each move.
   - Often considered the best heuristic for TSP, providing near-optimal solutions for large instances.
   - **Reference**: Lin, S., & Kernighan, B. W. (1973). An effective heuristic algorithm for the traveling-salesman problem. *Operations Research*, 21(2), 498-516.
+
+---
 
 ### Summary Table of Heuristic Methods for TSP
 
