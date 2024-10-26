@@ -9,7 +9,7 @@
 The **Traveling Salesman Problem (TSP)** is a classic optimization problem in which a salesman (or an agent) must visit a set of cities exactly once, return to the starting city, and minimize the total travel distance (or cost). The goal is to find the shortest possible route that allows the salesman to visit each city once and return to the starting point.
 
 #### Problem Description
-- Given: A set of \( n \) cities and the distances (or costs) between each pair of cities.
+- Given: A set of $( n )$ cities and the distances (or costs) between each pair of cities.
 - Objective: Find the shortest possible route that starts and ends at a specified city, visiting each other city exactly once.
 
 ### 2. Mathematical Model of TSP
@@ -17,65 +17,59 @@ The **Traveling Salesman Problem (TSP)** is a classic optimization problem in wh
 To formulate the TSP as an optimization problem, we define the following:
 
 #### Decision Variables
-- Let \( x_{ij} \) be a binary decision variable:
-  - \( x_{ij} = 1 \) if the path from city \( i \) to city \( j \) is part of the optimal route.
-  - \( x_{ij} = 0 \) otherwise.
+- Let $( x_{ij} )$ be a binary decision variable:
+  - $( x_{ij} = 1 )$ if the path from city $( i )$ to city $( j )$ is part of the optimal route.
+  - $( x_{ij} = 0 )$ otherwise.
 
 #### Parameters
-- \( d_{ij} \): The distance (or cost) of traveling from city \( i \) to city \( j \).
+- $( d_{ij} )$: The distance (or cost) of traveling from city $( i )$ to city $( j )$.
 
 #### Objective Function
 The objective is to minimize the total distance (or cost) of the tour:
 
-\[
-\text{Minimize } \sum_{i=1}^n \sum_{j=1}^n d_{ij} x_{ij}
-\]
+$\text{Minimize } \sum_{i=1}^n \sum_{j=1}^n d_{ij} x_{ij}$
 
-### 3. Constraints
+### Constraints
 
 1. **Each City is Visited Exactly Once**:
-   - Each city \( i \) must have exactly one incoming and one outgoing edge:
-     \[
-     \sum_{j=1}^n x_{ij} = 1 \quad \forall i = 1, \ldots, n
-     \]
-     \[
-     \sum_{i=1}^n x_{ij} = 1 \quad \forall j = 1, \ldots, n
-     \]
+   - Each city $( i )$ must have exactly one incoming and one outgoing edge:
+   
+     $\sum_{j=1}^n x_{ij} = 1$   $\quad$    $\forall i = 1, ..., n$
+
+     $\sum_{i=1}^n x_{ij} = 1$   $\quad$   $\forall j = 1, ..., n$
+
    - These constraints ensure that each city is entered and exited exactly once.
 
-2. **Subtour Elimination**:
+3. **Subtour Elimination**:
    - One of the major challenges of TSP is to eliminate **subtours** (routes that visit a subset of cities and do not form a complete tour). A common approach to prevent subtours is to use additional variables and constraints:
-   - Define a variable \( u_i \) for each city \( i \) to represent the position of the city in the tour.
+   - Define a variable $( u_i )$ for each city $( i )$ to represent the position of the city in the tour.
    - The subtour elimination constraints are:
-     \[
-     u_i - u_j + n \cdot x_{ij} \leq n - 1 \quad \forall i, j = 2, \ldots, n, \; i \neq j
-     \]
+     
+     $u_i - u_j + n.x_{ij} \leq n - 1$   $\quad$   $\forall i, j = 2, ..., n, ; \ i \neq j$
+     
    - These constraints prevent the formation of smaller cycles (subtours) by enforcing the order of cities in the tour.
 
-3. **Binary Constraints**:
-   - \( x_{ij} \) should be a binary variable, meaning:
-     \[
-     x_{ij} \in \{0, 1\}
-     \]
+4. **Binary Constraints**:
+   - $( x_{ij} )$ should be a binary variable, meaning:
+     $x_{ij} \in \{0, 1}$
 
-4. **Non-negativity for Position Variables**:
-   - For the subtour elimination constraints, the position variables \( u_i \) should be non-negative:
-     \[
-     u_i \geq 0 \quad \forall i = 1, \ldots, n
-     \]
+5. **Non-negativity for Position Variables**:
+   - For the subtour elimination constraints, the position variables $( u_i )$ should be non-negative:
+     $u_i \geq 0$ $\quad$ $\forall i = 1, ..., n$
 
 ### Summary of the TSP Model:
 
-- **Objective**: Minimize \( \sum_{i=1}^n \sum_{j=1}^n d_{ij} x_{ij} \)
+- **Objective**: $\text{Minimize } \sum_{i=1}^n \sum_{j=1}^n d_{ij} x_{ij}$
+  
 - **Constraints**:
   1. Each city has exactly one incoming and outgoing edge.
   2. Subtour elimination constraints.
-  3. Binary constraints on \( x_{ij} \).
-  4. Non-negativity constraints for \( u_i \).
+  3. Binary constraints on $( x_{ij} )$.
+  4. Non-negativity constraints for $( u_i )$.
 
 This model can be solved using integer programming techniques, where the binary decision variables are optimized to find the minimum-cost route.
 
-### 4. Alternative Ways to Solve TSP
+### 3. Alternative Ways to Solve TSP
 
 Aside from solving TSP with an optimization model, there are other methods and algorithms to tackle the problem. Here are some alternative approaches:
 
