@@ -1,5 +1,9 @@
 # Combinatorial Optimization
 
+<p align="center"> 
+  <img width="500" height="350" src="https://miro.medium.com/v2/resize:fit:1400/1*WHoUd8ormJ3T6QIh3rJLUA.gif"> 
+</p>
+
 **Combinatorial Optimization** is a branch of optimization focused on finding an optimal solution from a finite set of discrete solutions. It is widely applied in fields like operations research, computer science, engineering, logistics, and artificial intelligence. The primary goal of combinatorial optimization is to determine the best combination or ordering of elements that satisfies specific criteria and constraints, often while minimizing or maximizing a particular objective function, like cost, time, or efficiency.
 
 ### Key Features of Combinatorial Optimization
