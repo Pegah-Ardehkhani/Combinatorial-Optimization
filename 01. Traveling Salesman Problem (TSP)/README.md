@@ -29,7 +29,7 @@ The objective is to minimize the total distance (or cost) of the tour:
 
 $\text{Minimize } \sum_{i=1}^n \sum_{j=1}^n d_{ij} x_{ij}$
 
-### Constraints
+#### Constraints
 
 1. **Each City is Visited Exactly Once**:
    - Each city $( i )$ must have exactly one incoming and one outgoing edge:
@@ -57,7 +57,7 @@ $\text{Minimize } \sum_{i=1}^n \sum_{j=1}^n d_{ij} x_{ij}$
    - For the subtour elimination constraints, the position variables $( u_i )$ should be non-negative:
      $u_i \geq 0$ $\quad$ $\forall i = 1, ..., n$
 
-### Summary of the TSP Model:
+#### Summary of the TSP Model:
 
 - **Objective**: $\text{Minimize } \sum_{i=1}^n \sum_{j=1}^n d_{ij} x_{ij}$
   
