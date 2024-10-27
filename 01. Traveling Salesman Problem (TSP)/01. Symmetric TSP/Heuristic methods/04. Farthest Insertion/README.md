@@ -24,7 +24,7 @@ Consider a TSP instance with 4 cities and the following distance matrix:
 | **City 3** | 15     | 35     | 0      | 30     |
 | **City 4** | 20     | 25     | 30     | 0      |
 
-Let’s apply the **Farthest Insertion** heuristic to this matrix, starting from City 1.
+Let's apply the **Farthest Insertion** heuristic to this matrix, starting from City 1.
 
 #### Step 1: Initialize with Start City
 - Start at **City 1**.
