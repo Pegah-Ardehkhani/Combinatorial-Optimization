@@ -108,7 +108,7 @@ The NN heuristic is particularly useful in scenarios where a quick, approximate 
 2. **Manufacturing**: Determining the shortest path between machines or workstations to minimize travel distances.
 3. **Tourism and Route Planning**: Planning sight-seeing or round-trip routes, especially when quick approximations are more valuable than exact solutions.
 
---
+---
 
 ### Summary
 The **Nearest Neighbor heuristic** provides a fast, easy-to-implement method for generating feasible solutions to the TSP. Although it does not guarantee an optimal solution, it is useful for smaller or time-sensitive problems and as a starting point for further optimization. Despite its limitations, NN’s simplicity and speed make it a popular choice in many applications where an approximate solution suffices. 
