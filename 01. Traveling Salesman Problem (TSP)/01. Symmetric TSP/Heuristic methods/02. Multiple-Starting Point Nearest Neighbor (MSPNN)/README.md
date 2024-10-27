@@ -4,6 +4,8 @@ The **Multiple-Starting Point Nearest Neighbor (MSPNN)** heuristic is an approac
 
 The MSPNN heuristic builds upon the traditional Nearest Neighbor (NN) heuristic by running the NN algorithm from each possible starting city and selecting the best route. This improves the quality of the solution, as the NN heuristic is sensitive to the starting city and can yield different results depending on the initial choice.
 
+---
+
 ## Algorithm Details
 
 The algorithm works as follows:
@@ -18,11 +20,15 @@ The algorithm works as follows:
    - Print the best route found along with the total distance.
    - Optionally, display all routes and distances computed for each starting point to compare performance.
 
+---
+
 ## Key Features
 
 - **Multiple Starting Points**: By considering every city as a starting point, MSPNN addresses the NN heuristic's limitation of sensitivity to the initial city, often leading to shorter tours.
 - **Improved Solution Quality**: The best tour among all starting points is selected, increasing the likelihood of a solution closer to the optimal.
 - **Efficient**: Although MSPNN is computationally more intensive than a single NN run, it remains fast enough for moderately large TSP instances, making it suitable for scenarios where an approximate solution is sufficient.
+
+---
 
 ## Parameters
 
@@ -41,8 +47,10 @@ distance_matrix = [
 ]
 
 # Solve the TSP with MSPNN
-solve_tsp_with_multiple_starting_nn(distance_matrix, show_route=True, show_other_routes=True)
+solve_tsp_with_MSPNN(distance_matrix, show_route=True, show_other_routes=True)
 ```
+
+---
 
 ## Advantages and Limitations
 
@@ -55,12 +63,7 @@ solve_tsp_with_multiple_starting_nn(distance_matrix, show_route=True, show_other
 - **Increased Computation**: For large instances, the need to repeat the NN heuristic from each city adds to the computation time.
 - **Still an Approximation**: While often effective, MSPNN does not guarantee the shortest possible tour, especially for complex city distributions.
 
-## Applications
-
-The MSPNN heuristic is applicable in various fields where TSP-like problems occur, such as:
-- **Logistics and Route Optimization**: Efficient pathfinding for delivery routes, school buses, or mail carriers.
-- **Manufacturing and Operations**: Shortest path scheduling in manufacturing processes.
-- **Travel and Tourism**: Planning round-trip routes that optimize travel distances.
+---
 
 ## Conclusion
 
