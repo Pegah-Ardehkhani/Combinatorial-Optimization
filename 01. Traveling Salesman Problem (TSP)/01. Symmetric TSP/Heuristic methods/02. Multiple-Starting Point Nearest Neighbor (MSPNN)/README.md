@@ -1,4 +1,4 @@
-# Multiple-Starting Point Nearest Neighbor (MSPNN) Heuristic for TSP
+# Multiple-Starting Point Nearest Neighbor (MSPNN) Heuristic
 
 The **Multiple-Starting Point Nearest Neighbor (MSPNN)** heuristic is an approach for finding an approximate solution to the **Traveling Salesman Problem (TSP)**. TSP is a classic optimization problem where the goal is to find the shortest possible route that visits each city exactly once and returns to the starting city.
 
