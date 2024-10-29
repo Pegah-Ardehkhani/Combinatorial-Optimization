@@ -1,7 +1,7 @@
 # Vehicle Routing Problem (VRP)
 
 <p align="center"> 
-  <img width="650" height="300" src="https://camo.githubusercontent.com/ceb255a78ddba16c13dd383f96ea2e14eb790da6036321353c9764cf7166ee7c/68747470733a2f2f72696e73696d2e72696e64652e6e6c2f696d616765732f746178692d64656d6f2e676966"> 
+  <img width="550" height="300" src="https://camo.githubusercontent.com/ceb255a78ddba16c13dd383f96ea2e14eb790da6036321353c9764cf7166ee7c/68747470733a2f2f72696e73696d2e72696e64652e6e6c2f696d616765732f746178692d64656d6f2e676966"> 
 </p>
 
 ### 1. What is the Vehicle Routing Problem?
