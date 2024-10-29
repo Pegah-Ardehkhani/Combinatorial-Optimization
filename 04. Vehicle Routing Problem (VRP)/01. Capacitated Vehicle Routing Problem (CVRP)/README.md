@@ -1,5 +1,9 @@
 # Capacitated Vehicle Routing Problem (CVRP)
 
+<p align="center"> 
+  <img width="400" height="350" src="https://instadeepai.github.io/jumanji/env_anim/cvrp.gif"> 
+</p>
+
 The **standard Vehicle Routing Problem (VRP)**, also known as the **Capacitated Vehicle Routing Problem (CVRP)**, is the basic version of the VRP where a fleet of vehicles with fixed capacity must deliver goods from a central depot to a set of customers while minimizing the total travel distance or cost.
 
 ### Characteristics of Standard VRP (CVRP)
