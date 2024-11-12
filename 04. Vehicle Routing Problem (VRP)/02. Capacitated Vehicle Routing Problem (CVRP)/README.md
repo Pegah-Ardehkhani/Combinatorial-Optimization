@@ -62,14 +62,15 @@ $\text{Minimize } \sum_{k \in K} \sum_{(i, j)} w_{ij} \cdot x_{ij}^k$
    $u_i - u_j + Q \cdot x_{ij}^k \leq Q - d_j, \quad \forall i, j \neq \text{depot}, i \neq j, k \in K$
 
 ### Solution Techniques for Standard VRP
-The standard VRP can be solved using:
-- **Exact Methods**: For small instances, integer programming and branch-and-bound algorithms can yield optimal solutions.
-- **Heuristic and Metaheuristic Methods**: For large-scale problems, methods like the Clarke-Wright Savings algorithm, Genetic Algorithms, Simulated Annealing, and Ant Colony Optimization are commonly used for finding near-optimal solutions efficiently.
+The CVRP can be approached through various methods:
 
+- **Exact Methods**: Integer programming and branch-and-bound algorithms can yield optimal solutions for smaller instances of the problem.
+- **Heuristic and Metaheuristic Methods**: For large-scale instances, heuristics like the Clarke-Wright Savings algorithm, and metaheuristics such as Genetic Algorithms, Simulated Annealing, and Ant Colony Optimization are effective for finding near-optimal solutions quickly.
+- 
 ### Applications of Standard VRP
-Standard VRP is widely used in logistics and transportation, including:
-- Delivery route planning for e-commerce.
-- Supply distribution for retail.
-- Waste collection and recycling.
 
-The standard VRP is the foundation for many VRP extensions, including those with additional constraints like time windows, multiple depots, and pickup and delivery.
+CVRP is widely applicable in logistics and transportation, such as:
+
+- Delivery route planning for e-commerce and retail.
+- Supply distribution for retail chains.
+- Waste collection and recycling routes.
