@@ -1,5 +1,9 @@
 ### 1. What is the Shortest Path Problem?
 
+<p align="center"> 
+  <img width="650" height="350" src="https://b2316719.smushcdn.com/2316719/wp-content/uploads/2023/03/dijkstra_animation_02.gif?lossy=1&strip=1&webp=1"> 
+</p>
+
 The **Shortest Path Problem** is a fundamental optimization problem in graph theory, where the goal is to find the shortest possible route between two nodes in a graph based on edge weights. This problem has numerous applications, such as navigation systems, communication networks, and logistics.
 
 #### Problem Description
