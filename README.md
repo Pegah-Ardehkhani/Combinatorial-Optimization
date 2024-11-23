@@ -43,6 +43,7 @@
             - [03. Borůvka's Algorithm](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/03.%20Minimum%20Spanning%20Tree/01.%20MST/Exact%20Methods/03.%20Bor%C5%AFvka's%20Algorithm) <a href="https://colab.research.google.com/github/Pegah-Ardehkhani/Combinatorial-Optimization/blob/main/03.%20Minimum%20Spanning%20Tree/01.%20MST/Exact%20Methods/03.%20Bor%C5%AFvka's%20Algorithm/MST%20with%20Bor%C5%AFvka.ipynb" target="_parent\"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/Pegah-Ardehkhani/Combinatorial-Optimization/blob/main/03.%20Minimum%20Spanning%20Tree/01.%20MST/Exact%20Methods/03.%20Bor%C5%AFvka's%20Algorithm/MST%20with%20Bor%C5%AFvka.ipynb)
 - [04. Vehicle Routing Problem (VRP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP))
     - [01. Vehicle Routing Problem (VRP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP)/01.%20Vehicle%20Routing%20Problem%20(VRP))
+    - [02. Capacitated Vehicle Routing Problem (CVRP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP)/02.%20Capacitated%20Vehicle%20Routing%20Problem%20(CVRP))
 - [05. Shortest Path Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem)
 
 
