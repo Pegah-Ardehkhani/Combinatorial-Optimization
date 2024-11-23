@@ -23,12 +23,14 @@ https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/blob/main/01.%20T
   - [02. Asymmetric TSP](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/02.%20Asymmetric%20TSP)
   - [03. Euclidean TSP](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP)
       - [Exact Methods](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods)
-        - [01. Euclidean TSP using Pulp](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods/01.%20Euclidean%20TSP%20using%20Pulp)
+        - [01. Euclidean TSP using Pulp](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods/01.%20Euclidean%20TSP%20using%20Pulp) <a href="https://colab.research.google.com/github/Pegah-Ardehkhani/Combinatorial-Optimization/blob/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods/01.%20Euclidean%20TSP%20using%20Pulp/Euclidean%20TSP%20with%20Pulp.ipynb" target="_parent\"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/Pegah-Ardehkhani/Combinatorial-Optimization/blob/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods/01.%20Euclidean%20TSP%20using%20Pulp/Euclidean%20TSP%20with%20Pulp.ipynb)
         - [02. Euclidean TSP using Pyomo](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods/02.%20Euclidean%20TSP%20using%20Pyomo)
 - [02. Knapsack Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/02.%20Knapsack%20Problem)
 - [03. Minimum Spanning Tree](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/03.%20Minimum%20Spanning%20Tree)
 - [04. Vehicle Routing Problem (VRP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP))
 - [05. Shortest Path Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem)
+
+
 
 
 ---
