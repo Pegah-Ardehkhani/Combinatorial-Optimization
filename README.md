@@ -2,8 +2,6 @@
 
 > **`Note`**: This repository is still developing.
 
-**Combinatorial Optimization** is a branch of optimization focused on finding an optimal solution from a finite set of discrete solutions. It is widely applied in fields like operations research, computer science, engineering, logistics, and artificial intelligence. The primary goal of combinatorial optimization is to determine the best combination or ordering of elements that satisfies specific criteria and constraints, often while minimizing or maximizing a particular objective function, like cost, time, or efficiency.
-
 <p align="center"> 
   <img width="500" height="350" src="https://miro.medium.com/v2/resize:fit:1400/1*WHoUd8ormJ3T6QIh3rJLUA.gif"> 
 </p>
@@ -12,6 +10,11 @@
 
 - [01. Traveling Salesman Problem (TSP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP))
 - [02. Knapsack Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/02.%20Knapsack%20Problem)
+- [03. Minimum Spanning Tree]()
+
+---
+
+**Combinatorial Optimization** is a branch of optimization focused on finding an optimal solution from a finite set of discrete solutions. It is widely applied in fields like operations research, computer science, engineering, logistics, and artificial intelligence. The primary goal of combinatorial optimization is to determine the best combination or ordering of elements that satisfies specific criteria and constraints, often while minimizing or maximizing a particular objective function, like cost, time, or efficiency.
 
 ---
 
