@@ -53,7 +53,7 @@
 - [05. Shortest Path Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem)
     - [01. Shortest Path](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem/01.%20Shortest%20Path)
         - [Exact Methods](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem/01.%20Shortest%20Path/Exact%20Methods)
-        - 
+            - [01. Dijkstra's Algorithm](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem/01.%20Shortest%20Path/Exact%20Methods/01.%20Dijkstra's%20Algorithm)
 
 
 ---
