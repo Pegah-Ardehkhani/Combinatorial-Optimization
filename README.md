@@ -6,8 +6,6 @@
   <img width="500" height="350" src="https://miro.medium.com/v2/resize:fit:1400/1*WHoUd8ormJ3T6QIh3rJLUA.gif"> 
 </p>
 
-https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/blob/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/01.%20Symmetric%20TSP/Heuristic%20methods/04.%20Farthest%20Insertion/TSP%20with%20Farthest%20Insertion.ipynb
-
 ## Table of content ✍️
 
 - [01. Traveling Salesman Problem (TSP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP))
