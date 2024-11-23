@@ -12,6 +12,8 @@
 - [02. Knapsack Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/02.%20Knapsack%20Problem)
 - [03. Minimum Spanning Tree](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/03.%20Minimum%20Spanning%20Tree)
 - [04. Vehicle Routing Problem (VRP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP))
+- [05. Shortest Path Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem)
+
 
 ---
 
