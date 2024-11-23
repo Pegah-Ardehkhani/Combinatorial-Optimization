@@ -49,6 +49,7 @@
     - [02. Capacitated Vehicle Routing Problem (CVRP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP)/02.%20Capacitated%20Vehicle%20Routing%20Problem%20(CVRP))
         - [Exact Methods](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP)/02.%20Capacitated%20Vehicle%20Routing%20Problem%20(CVRP)/Exact%20Methods)
             - [01. CVRP with Pulp](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP)/02.%20Capacitated%20Vehicle%20Routing%20Problem%20(CVRP)/Exact%20Methods/01.%20CVRP%20with%20Pulp)
+            - [02. CVRP with Pyomo](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP)/02.%20Capacitated%20Vehicle%20Routing%20Problem%20(CVRP)/Exact%20Methods/02.%20CVRP%20with%20Pyomo)
 - [05. Shortest Path Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem)
 
 
