@@ -10,6 +10,7 @@
 
 - [01. Traveling Salesman Problem (TSP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP))
   - [01. Symmetric TSP](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/01.%20Symmetric%20TSP)
+    - [Exact Algorithms](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/01.%20Symmetric%20TSP/Exact%20Algorithms)
   - [02. Asymmetric TSP](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/02.%20Asymmetric%20TSP)
   - [03. Euclidean TSP](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP)
 - [02. Knapsack Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/02.%20Knapsack%20Problem)
