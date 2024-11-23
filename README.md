@@ -22,7 +22,7 @@
   - [03. Euclidean TSP](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP)
       - [Exact Methods](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods)
         - [01. Euclidean TSP using Pulp](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods/01.%20Euclidean%20TSP%20using%20Pulp)
-        - []()
+        - [02. Euclidean TSP using Pyomo](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP/Exact%20Methods/02.%20Euclidean%20TSP%20using%20Pyomo)
 - [02. Knapsack Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/02.%20Knapsack%20Problem)
 - [03. Minimum Spanning Tree](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/03.%20Minimum%20Spanning%20Tree)
 - [04. Vehicle Routing Problem (VRP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/04.%20Vehicle%20Routing%20Problem%20(VRP))
