@@ -10,7 +10,7 @@
 
 - [01. Traveling Salesman Problem (TSP)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP))
 - [02. Knapsack Problem](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/02.%20Knapsack%20Problem)
-- [03. Minimum Spanning Tree]()
+- [03. Minimum Spanning Tree](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/03.%20Minimum%20Spanning%20Tree)
 
 ---
 
