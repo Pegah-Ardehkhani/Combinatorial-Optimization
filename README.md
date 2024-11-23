@@ -16,6 +16,7 @@
     - [Heuristic methods](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/01.%20Symmetric%20TSP/Heuristic%20methods)
       - [01. Nearest Neighbor (NN)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/01.%20Symmetric%20TSP/Heuristic%20methods/01.%20Nearest%20Neighbor%20(NN))
       - [02. Multiple-Starting Point Nearest Neighbor (MSPNN)](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/01.%20Symmetric%20TSP/Heuristic%20methods/02.%20Multiple-Starting%20Point%20Nearest%20Neighbor%20(MSPNN))
+      - [03. Nearest Insertion](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/01.%20Symmetric%20TSP/Heuristic%20methods/03.%20Nearest%20Insertion)
       - []()
   - [02. Asymmetric TSP](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/02.%20Asymmetric%20TSP)
   - [03. Euclidean TSP](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/01.%20Traveling%20Salesman%20Problem%20(TSP)/03.%20Euclidean%20TSP)
