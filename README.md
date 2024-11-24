@@ -56,6 +56,7 @@
             - [01. Dijkstra's Algorithm](https://github.com/Pegah-Ardehkhani/Combinatorial-Optimization/tree/main/05.%20Shortest%20Path%20Problem/01.%20Shortest%20Path/Exact%20Methods/01.%20Dijkstra's%20Algorithm) <a href="https://colab.research.google.com/github/Pegah-Ardehkhani/Combinatorial-Optimization/blob/main/05.%20Shortest%20Path%20Problem/01.%20Shortest%20Path/Exact%20Methods/01.%20Dijkstra's%20Algorithm/Shortest%20Path%20with%20Dijkstra.ipynb" target="_parent\"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/Pegah-Ardehkhani/Combinatorial-Optimization/blob/main/05.%20Shortest%20Path%20Problem/01.%20Shortest%20Path/Exact%20Methods/01.%20Dijkstra's%20Algorithm/Shortest%20Path%20with%20Dijkstra.ipynb)
 
 ---
+### What is Combinatorial Optimization?
 
 **Combinatorial Optimization** is a branch of optimization focused on finding an optimal solution from a finite set of discrete solutions. It is widely applied in fields like operations research, computer science, engineering, logistics, and artificial intelligence. The primary goal of combinatorial optimization is to determine the best combination or ordering of elements that satisfies specific criteria and constraints, often while minimizing or maximizing a particular objective function, like cost, time, or efficiency.
 
