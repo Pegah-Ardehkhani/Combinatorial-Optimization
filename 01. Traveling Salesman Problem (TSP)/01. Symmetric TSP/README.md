@@ -64,7 +64,7 @@ While exact methods work well for small to medium-sized instances, heuristic and
 ---
 
 ### Example of Symmetric TSP
-Consider a simple instance of Symmetric TSP with four cities and the following distance matrix (where $(d_{ij} = d_{ji})$):
+Consider a simple instance of Symmetric TSP with four cities and the following distance matrix (where $(d_{ij} = d_{ji})$ ):
 
 |       | City 1 | City 2 | City 3 | City 4 |
 |-------|--------|--------|--------|--------|
